@@ -1,0 +1,57 @@
+body{
+ background-color: #2b0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.border{
+  width: 350px;
+  margin: 50px auto; /* sayfa ortasında yatay ortalar */
+  background-color: #800000; /* senin kırmızı tonun */
+  border-radius: 10px; /* köşeleri yumuşatır */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* gölge ekler */
+  padding: 20px;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease; /* yumuşak geçişler için */
+}
+.border:hover{
+  transform: scale(1.03);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+.photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 15px;
+  border: 3px solid white;
+ }
+ 
+ p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+ i{
+  font-size: 24px;
+  margin: 10px;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+i:hover {
+  color: #ffcc00; 
+  transform: scale(1.2);
+}
